@@ -17,6 +17,12 @@ const projects = [
     tags: ["Python", "Open Source", "Architecture"],
     github: "https://github.com/krtk119/MiSAR-Parser-and-Model-Transformation",
   },
+  {
+    title: "UK Degree Classification Calculator",
+    description: "Web app where students enter their grades and instantly get their degree classification (First, Upper Second, Lower Second, Third). Supports multiple UK university grading schemes and reverse calculation.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/krtk119/Grade-Classification-Calculator",
+  },
 ]
 
 export default function Projects() {
