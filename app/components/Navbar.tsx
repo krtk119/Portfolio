@@ -4,10 +4,11 @@ export default function Navbar() {
       <span className="text-white font-bold text-xl">Kartik</span>
       <div className="flex gap-6">
         <a href="/" className="text-gray-400 hover:text-white transition">Home</a>
-        <a href="/about" className="text-gray-400 hover:text-white transition">About</a>
-        <a href="/projects" className="text-gray-400 hover:text-white transition">Projects</a>
-        <a href="/skills" className="text-gray-400 hover:text-white transition">Skills</a>
-        <a href="/contact" className="text-gray-400 hover:text-white transition">Contact</a>
+        <a href="#about" className="text-gray-400 hover:text-white transition">About</a>
+        <a href="#experience" className="text-gray-400 hover:text-white transition">Experience</a>
+        <a href="#projects" className="text-gray-400 hover:text-white transition">Projects</a>
+        <a href="#skills" className="text-gray-400 hover:text-white transition">Skills</a>
+        <a href="#contact" className="text-gray-400 hover:text-white transition">Contact</a>
       </div>
     </nav>
   )
