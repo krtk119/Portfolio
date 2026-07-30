@@ -23,6 +23,13 @@ const projects = [
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/krtk119/Grade-Classification-Calculator",
   },
+  {
+  title: "RotaSync",
+  description: "AI-powered shift scheduling app for workplace rotas. Staff submit availability, managers build rotas manually or let the AI auto-generate fair shift assignments using constraint-based search. Built for real use at Compass Group.",
+  tags: ["Next.js", "TypeScript", "Python", "Supabase", "AI"],
+  github: "https://github.com/krtk119/RotaSync",
+},
+
 ]
 
 export default function Projects() {
