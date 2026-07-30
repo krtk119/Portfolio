@@ -3,7 +3,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full bg-black border-b border-gray-800 px-6 py-4 flex justify-between items-center z-50">
       <span className="text-white font-bold text-xl">Kartik</span>
       <div className="flex gap-6">
-        <a href="/" className="text-gray-400 hover:text-white transition">Home</a>
+        <a href="#" className="text-gray-400 hover:text-white transition">Home</a>
         <a href="#about" className="text-gray-400 hover:text-white transition">About</a>
         <a href="#experience" className="text-gray-400 hover:text-white transition">Experience</a>
         <a href="#projects" className="text-gray-400 hover:text-white transition">Projects</a>

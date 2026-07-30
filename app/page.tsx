@@ -111,15 +111,24 @@ export default function Home() {
     <main className="bg-black text-white">
 
       {/* Hero */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6 pt-20">
-        <div className="flex flex-col md:flex-row items-center gap-16 max-w-5xl w-full">
+      <section className="min-h-screen flex flex-col items-center justify-center px-12">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-16 max-w-5xl w-full mt-[-60px]">
           
           {/* Left — Quote */}
           <div className="flex-1 text-left">
             <p className="text-2xl text-gray-300 font-light leading-relaxed italic mb-6">
               "We can only see a short distance ahead, but we can see plenty there that needs to be done."
             </p>
-            <p className="text-gray-500 text-sm">— Alan Mathison Turing · Mathematician & Father of Computer Science · (1912–1954)</p>
+            <div className="flex items-center gap-4 mt-2">
+  <Image
+    src="/turing.jpg"
+    alt="Alan Turing"
+    width={50}
+    height={50}
+    className="rounded-full object-cover grayscale border border-gray-600"
+  />
+  <p className="text-gray-500 text-sm">— Alan Mathison Turing · Mathematician & Father of Computer Science · (1912–1954)</p>
+</div>
           </div>
 
           {/* Right — Photo and details */}
