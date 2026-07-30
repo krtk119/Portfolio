@@ -278,7 +278,17 @@ export default function Home() {
           </a>
         </div>
       </section>
+      
 
+      {/* Footer */}
+<footer className="border-t border-gray-200 px-6 py-8 text-center">
+  <p className="text-gray-400 text-sm">© 2026 Kartik · Built with Next.js & Tailwind CSS</p>
+  <div className="flex justify-center gap-6 mt-4">
+    <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-gray-900 text-sm transition">GitHub</a>
+    <a href="https://www.linkedin.com/in/kartik-3242963a8" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-gray-900 text-sm transition">LinkedIn</a>
+    <a href="mailto:119kartik@gmail.com" className="text-gray-400 hover:text-gray-900 text-sm transition">Email</a>
+  </div>
+</footer>
     </main>
   )
 }
