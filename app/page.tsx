@@ -31,6 +31,18 @@ const projects = [
     tags: ["Next.js", "TypeScript", "Python", "Supabase", "AI"],
     github: "https://github.com/krtk119/RotaSync",
   },
+  {
+  title: "Simon Swift — SwiftBot",
+  description: "A Simon Says style memory game built in Swift as a collaborative project. Players follow and repeat increasingly complex sequences of colours and sounds, with difficulty scaling as the game progresses.",
+  tags: ["Swift", "iOS", "Game Development"],
+  github: "https://github.com/mannycodes20/Simon-Swift---SwiftBot",
+},
+ {
+  title: "Formative Task 5 — SwiftBot Integration",
+  description: "Integrated multiple SwiftBot programs (Morse code, dance, shape drawing, light search, zig-zag) into a single menu-driven Java application. Users select a task from the menu and the robot executes the corresponding behaviour.",
+  tags: ["Java", "Robotics", "Integration", "OOP"],
+  github: "https://github.com/krtk119/Formative-Task-5",
+},
 ]
 
 const technical = [
@@ -147,7 +159,7 @@ export default function Home() {
             <p className="text-gray-400 text-sm mb-6">Software Engineer · VC Scholar · Open to Placement</p>
             <div className="flex gap-4">
               <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="px-5 py-2 bg-gray-900 text-white font-semibold rounded-lg hover:bg-gray-700 transition text-sm">GitHub</a>
-              <a href="https://www.linkedin.com/in/kartik-3242963a8" target="_blank" rel="noreferrer" className="px-5 py-2 border border-gray-300 text-gray-900 font-semibold rounded-lg hover:border-gray-900 transition text-sm">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/krtk119" target="_blank" rel="noreferrer" className="px-5 py-2 border border-gray-300 text-gray-900 font-semibold rounded-lg hover:border-gray-900 transition text-sm">LinkedIn</a>
             </div>
           </div>
 
@@ -258,10 +270,10 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-2 text-gray-900">Contact</h2>
         <p className="text-gray-400 mb-12">Get in touch.</p>
         <div className="grid gap-6">
-          <a href="mailto:119kartik@gmail.com" className="flex items-center gap-4 border border-gray-200 rounded-xl p-6 hover:border-gray-400 transition bg-white">
+          <a href="mailto:119kartikwork@gmail.com" className="flex items-center gap-4 border border-gray-200 rounded-xl p-6 hover:border-gray-400 transition bg-white">
             <div>
               <p className="font-semibold text-gray-900 mb-1">Email</p>
-              <p className="text-gray-500 text-sm">119kartik@gmail.com</p>
+              <p className="text-gray-500 text-sm">119kartikwork@gmail.com</p>
             </div>
           </a>
           <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="flex items-center gap-4 border border-gray-200 rounded-xl p-6 hover:border-gray-400 transition bg-white">
@@ -270,10 +282,10 @@ export default function Home() {
               <p className="text-gray-500 text-sm">github.com/krtk119</p>
             </div>
           </a>
-          <a href="https://www.linkedin.com/in/kartik-3242963a8" target="_blank" rel="noreferrer" className="flex items-center gap-4 border border-gray-200 rounded-xl p-6 hover:border-gray-400 transition bg-white">
+          <a href="https://www.linkedin.com/in/krtk119" target="_blank" rel="noreferrer" className="flex items-center gap-4 border border-gray-200 rounded-xl p-6 hover:border-gray-400 transition bg-white">
             <div>
               <p className="font-semibold text-gray-900 mb-1">LinkedIn</p>
-              <p className="text-gray-500 text-sm">linkedin.com/in/kartik-3242963a8</p>
+              <p className="text-gray-500 text-sm">linkedin.com/in/krtk119</p>
             </div>
           </a>
         </div>
@@ -285,8 +297,8 @@ export default function Home() {
   <p className="text-gray-400 text-sm">© 2026 Kartik · Built with Next.js & Tailwind CSS</p>
   <div className="flex justify-center gap-6 mt-4">
     <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-gray-900 text-sm transition">GitHub</a>
-    <a href="https://www.linkedin.com/in/kartik-3242963a8" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-gray-900 text-sm transition">LinkedIn</a>
-    <a href="mailto:119kartik@gmail.com" className="text-gray-400 hover:text-gray-900 text-sm transition">Email</a>
+    <a href="https://www.linkedin.com/in/krtk119" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-gray-900 text-sm transition">LinkedIn</a>
+    <a href="mailto:119kartikwork@gmail.com" className="text-gray-400 hover:text-gray-900 text-sm transition">Email</a>
   </div>
 </footer>
     </main>
