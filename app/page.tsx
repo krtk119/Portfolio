@@ -1,3 +1,4 @@
+import Image from "next/image"
 const projects = [
   {
     title: "SpyBot",
@@ -110,19 +111,39 @@ export default function Home() {
     <main className="bg-black text-white">
 
       {/* Hero */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6 pt-20 text-center">
-        <h1 className="text-6xl font-bold mb-4">Kartik</h1>
-        <p className="text-2xl text-gray-400 mb-2">CS (AI) Student @ Brunel University London</p>
-        <p className="text-lg text-gray-500 mb-8">Software Engineer · VC Scholar · Open to Placement</p>
-        <p className="text-gray-400 max-w-xl mb-10">
-          I build real things — from autonomous robots to open-source AI tools.
-          Currently in Year 2 at Brunel, looking for a placement in central London.
-        </p>
-        <div className="flex gap-4">
-          <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="px-6 py-3 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition">GitHub</a>
-          <a href="https://www.linkedin.com/in/kartik-3242963a8" target="_blank" rel="noreferrer" className="px-6 py-3 border border-gray-600 text-white font-semibold rounded-lg hover:border-white transition">LinkedIn</a>
+      <section className="min-h-screen flex flex-col items-center justify-center px-6 pt-20">
+        <div className="flex flex-col md:flex-row items-center gap-16 max-w-5xl w-full">
+          
+          {/* Left — Quote */}
+          <div className="flex-1 text-left">
+            <p className="text-2xl text-gray-300 font-light leading-relaxed italic mb-6">
+              "We can only see a short distance ahead, but we can see plenty there that needs to be done."
+            </p>
+            <p className="text-gray-500 text-sm">— Alan Mathison Turing · Mathematician & Father of Computer Science · (1912–1954)</p>
+          </div>
+
+          {/* Right — Photo and details */}
+          <div className="flex flex-col items-center text-center">
+            <Image
+              src="/profile.jpg"
+              alt="Kartik"
+              width={200}
+              height={200}
+              loading="eager"
+              className="rounded-full object-cover mb-6 border-2 border-gray-700"
+            />
+            <h1 className="text-4xl font-bold mb-2">Kartik</h1>
+            <p className="text-gray-400 mb-1">CS (AI) Student @ Brunel University London</p>
+            <p className="text-gray-500 text-sm mb-6">Software Engineer · VC Scholar · Open to Placement</p>
+            <div className="flex gap-4">
+              <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="px-5 py-2 bg-white text-black font-semibold rounded-lg hover:bg-gray-200 transition text-sm">GitHub</a>
+              <a href="https://www.linkedin.com/in/kartik-3242963a8" target="_blank" rel="noreferrer" className="px-5 py-2 border border-gray-600 text-white font-semibold rounded-lg hover:border-white transition text-sm">LinkedIn</a>
+            </div>
+          </div>
+
         </div>
       </section>
+      
 
       {/* About */}
       <section id="about" className="px-6 py-24 max-w-3xl mx-auto">
