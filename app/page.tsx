@@ -125,7 +125,7 @@ export default function Home() {
 
       {/* Hero */}
       <section className="min-h-screen flex flex-col items-center justify-center px-12">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-16 max-w-5xl w-full mt-[-120px]">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10 md:gap-16 max-w-5xl w-full mt-[-120px]">
 
           {/* Left — Quote */}
           <div className="flex-1 text-left">
