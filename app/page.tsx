@@ -77,6 +77,17 @@ const technical = [
       "Holds Enhanced DBS clearance and Safeguarding certification",
     ],
   },
+  {
+  role: "Web Officer",
+  company: "Brunel Cyber Security Society",
+  period: "Jul 2026 – Present",
+  points: [
+    "Managing and maintaining the society's website and digital presence",
+    "Coordinating digital promotion with the Societies' Administrator",
+    "Running the society's social media accounts",
+    "Presenting the society in a respectable and professional manner",
+  ],
+},
 ]
 
 const work = [
