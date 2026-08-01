@@ -5,6 +5,7 @@ export default function Navbar() {
       <div className="flex gap-6">
         <a href="#" className="text-gray-500 hover:text-gray-900 transition">Home</a>
         <a href="#about" className="text-gray-500 hover:text-gray-900 transition">About</a>
+        <a href="#education" className="text-gray-500 hover:text-gray-900 transition">Education</a>
         <a href="#experience" className="text-gray-500 hover:text-gray-900 transition">Experience</a>
         <a href="#projects" className="text-gray-500 hover:text-gray-900 transition">Projects</a>
         <a href="#skills" className="text-gray-500 hover:text-gray-900 transition">Skills</a>

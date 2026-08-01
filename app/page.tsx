@@ -1,5 +1,19 @@
 import Image from "next/image"
 
+const education = [
+  {
+    institution: "Brunel University London",
+    degree: "BSc Computer Science (Artificial Intelligence)",
+    period: "2025 – 2029",
+    predictedGrade: "First Class Honours",
+    points: [
+      "Vice Chancellor's Scholar (top 10% of cohort)",
+      "Year-1 Modules: Introduction to Programming, Logic and Computation, Information Systems and Organisation, Programming Applications, Data and Information, Group Project",
+      "Maintaining a First Class average while balancing multiple part-time roles and open source contributions",
+    ],
+  },
+]
+
 const projects = [
   {
     title: "SpyBot",
@@ -134,6 +148,7 @@ export default function Home() {
   return (
     <main className="bg-[#FAFAFA] text-gray-900">
 
+
       {/* Hero */}
       <section className="min-h-screen flex flex-col items-center justify-center px-12">
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-10 md:gap-16 max-w-5xl w-full mt-[-120px]">
@@ -185,6 +200,31 @@ export default function Home() {
           <p>I'm Kartik, a CS (AI) student at Brunel University London originally from New Delhi, India. I'm a Vice Chancellor's Scholar currently in my second year, working towards a First Class degree while balancing multiple part-time roles and open source contributions.</p>
           <p>I've always been drawn to problem solving. What excites me about CS and AI is the speed at which it can create real impact — a well-built system can solve in seconds what would take humans hours.</p>
           <p>My goal is to work in big tech, building things that matter at scale. I'm currently looking for a placement year in central London as the next step. Outside of tech, I watch sports and read fiction.</p>
+        </div>
+      </section>
+
+ {/* Education */}
+      <section id="education" className="px-6 py-24 max-w-3xl mx-auto">
+        <h2 className="text-3xl font-bold mb-2 text-gray-900">Education</h2>
+        <p className="text-gray-400 mb-8">Where I've learned and grown.</p>
+          <div className="space-y-8">
+          {education.map((item) => (
+            <div key={item.institution} className="border border-gray-200 rounded-xl p-6 hover:border-gray-400 transition bg-white">
+              <div className="flex justify-between items-start mb-3">
+                <div>
+                  <p className="text-lg font-bold text-gray-900">{item.institution}</p>
+                  <p className="font-semibold text-gray-900">{item.degree}</p>
+                  <p className="text-gray-400 text-sm">{item.predictedGrade}</p>
+                </div>
+                 <p className="text-gray-500 text-sm">{item.period}</p>
+              </div>
+              <ul className="space-y-1">
+                {item.points.map((point) => (
+                  <li key={point} className="text-gray-500 text-sm">→ {point}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </section>
 
