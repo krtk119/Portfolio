@@ -149,10 +149,10 @@ const work = [
 ]
 
 const skills = [
-  { category: "Languages", items: ["Java", "Python", "TypeScript", "JavaScript", "HTML", "CSS"] },
-  { category: "Frameworks & Libraries", items: ["Next.js", "React", "Tailwind CSS", "Node.js"] },
+  { category: "Languages", items: ["Java", "Python", "R", "TypeScript", "JavaScript", "HTML", "CSS"] },
+  { category: "Frameworks & Libraries", items: ["Next.js", "React", "Tailwind CSS", "Node.js", "ggplot2", "dplyr", "tidyverse"] },
   { category: "Tools & Platforms", items: ["Git", "GitHub", "VS Code", "IntelliJ IDEA", "Vercel"] },
-  { category: "Concepts", items: ["OOP", "REST APIs", "Data Structures", "Algorithms", "Microservices", "Open Source"] },
+  { category: "Concepts", items: ["OOP", "REST APIs", "Data Structures", "Algorithms", "Microservices", "Open Source", "Data Analysis", "Statistical Computing"] },
 ]
 
 export default function Home() {
