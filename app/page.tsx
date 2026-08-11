@@ -12,6 +12,17 @@ const education = [
       "Maintaining a First Class average while balancing multiple part-time roles and open source contributions",
     ],
   },
+  {institution: "University of Southern Denmark",
+    degree: "International Summer School - Introduction to R",
+    period: "August 2026",
+    predictedGrade: "Certificate of Completion",
+    points:[
+      "Selected for fully funded international summer school in Odense, Denmark",
+    "Completed intensive R programming course covering data analysis and statistical computing",
+    "One of a small number of Brunel students selected for the programme",
+    ]
+    ,
+  }
 ]
 
 const projects = [
