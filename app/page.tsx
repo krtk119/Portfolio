@@ -112,8 +112,19 @@ const technical = [
     "Running the society's social media accounts",
     "Presenting the society in a respectable and professional manner",
   ],
-},
-]
+  },
+  {
+  role: "PAL Leader",
+  company: "Brunel University London — Academic Skills (ASK)",
+  period: "Sep 2026 – Present",
+  points: [
+    "Volunteering to lead Peer Assisted Learning (PAL) sessions for Year 1 students",
+    "Supporting student transition to university life and academic study",
+    "Developing leadership, communication and mentoring skills",
+    "Completed official PAL Leader training during Welcome Week",
+  ],
+  },
+  ]
 
 const work = [
   {
