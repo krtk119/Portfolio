@@ -157,6 +157,17 @@ const work = [
       "Demonstrated consistent reliability and strong time management",
     ],
   },
+  {
+  role: "Student Brand Ambassador",
+  company: "Deloitte",
+  period: "Sep 2026 – Present",
+  points: [
+    "Selected as Deloitte Brand Ambassador for 2026/27 academic year through Higherin Academy",
+    "Promoting Deloitte Early Careers opportunities to students at Brunel University London",
+    "Collaborating with university societies to expand reach and drive diversity and inclusion",
+    "Organising campus activations including stall setups, event promotion and social media content",
+  ],
+},
 ]
 
 const skills = [
