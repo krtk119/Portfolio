@@ -12,15 +12,98 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 24px;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.reveal {
+  opacity: 0;
+  transition: opacity 800ms cubic-bezier(0.22, 1, 0.36, 1), transform 800ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-up { transform: translateY(35px); }
+.reveal-left { transform: translateX(-35px); }
+.reveal-right { transform: translateX(35px); }
+.reveal-none { transform: none; }
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+@keyframes heroFadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-animate {
+  opacity: 0;
+  animation: heroFadeUp 900ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hero-delay-1 { animation-delay: 150ms; }
+.hero-delay-2 { animation-delay: 300ms; }
+.hero-delay-3 { animation-delay: 450ms; }
+.hero-delay-4 { animation-delay: 600ms; }
+
+.profile-image {
+  transition: transform 500ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 500ms ease;
+}
+
+.profile-image:hover {
+  transform: translateY(-6px) scale(1.025);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.10);
+}
+
+.premium-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 350ms cubic-bezier(0.22, 1, 0.36, 1), border-color 350ms ease, box-shadow 350ms ease;
+}
+
+.premium-card:hover {
+  transform: translateY(-5px);
+  border-color: #9ca3af;
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.06);
+}
+
+.skill-badge {
+  transition: transform 250ms ease, border-color 250ms ease, background-color 250ms ease, box-shadow 250ms ease;
+}
+
+.skill-badge:hover {
+  transform: translateY(-3px);
+  border-color: #9ca3af;
+  background-color: #f9fafb;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.05);
+}
+
+.premium-button {
+  transition: transform 250ms ease, box-shadow 250ms ease;
+}
+
+.premium-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal { opacity: 1; transform: none; }
 }
