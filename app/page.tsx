@@ -9,7 +9,6 @@ const education = [
     predictedGrade: "First Class Honours",
     points: [
       "Vice Chancellor's Scholar (top 10% of cohort)",
-      "Year-1 Modules: Introduction to Programming, Logic and Computation, Information Systems and Organisation, Programming Applications, Data and Information, Group Project",
       "Maintaining a First Class average while balancing multiple part-time roles and open source contributions",
     ],
   },
@@ -232,7 +231,7 @@ export default function Home() {
           <p className="text-gray-400 mb-8">The person behind the code.</p>
           <div className="space-y-6 text-gray-600 leading-relaxed">
             <p>I'm Kartik, a CS (AI) student at Brunel University London originally from New Delhi, India. I'm a Vice Chancellor's Scholar currently in my second year, working towards a First Class degree while balancing multiple part-time roles and open source contributions.</p>
-            <p>I've always been drawn to problem solving. What excites me about CS and AI is the speed at which it can create real impact — a well-built system can solve in seconds what would take humans hours.</p>
+            <p>I've always been drawn to problem solving. What excites me about CS and AI is the speed at which it can create real impact, a well-built system can solve in seconds what would take humans hours.</p>
             <p>My goal is to work in big tech, building things that matter at scale. I'm currently looking for a placement year in central London as the next step. Outside of tech, I watch sports and read fiction.</p>
           </div>
         </section>
@@ -254,11 +253,36 @@ export default function Home() {
                   </div>
                   <p className="text-gray-500 text-sm">{item.period}</p>
                 </div>
-                <ul className="space-y-1">
-                  {item.points.map((point) => (
-                    <li key={point} className="text-gray-500 text-sm">→ {point}</li>
-                  ))}
-                </ul>
+                <ul className="space-y-1 mb-6">
+  {item.points.map((point) => (
+    <li key={point} className="text-gray-500 text-sm">→ {point}</li>
+  ))}
+</ul>
+
+{/* Modules table — only for Brunel */}
+{item.institution === "Brunel University London" && (
+  <div className="mt-4 border-t border-gray-100 pt-4">
+    <p className="text-sm font-semibold text-gray-700 mb-3">Modules</p>
+    <div className="grid grid-cols-2 gap-4">
+      <div>
+        <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Year 1</p>
+        <ul className="space-y-1">
+          {["Introduction to Programming", "Logic and Computation", "Information Systems and Organisation", "Programming Applications", "Data and Information", "Group Project"].map((mod) => (
+            <li key={mod} className="text-gray-500 text-xs">· {mod}</li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Year 2</p>
+        <ul className="space-y-1">
+          {["Graduate Development", "Software Development and Management", "Usability Engineering", "Fundamentals of Algorithms", "Algorithms and their Applications", "Networks and Operating Systems", "Level 5 Group Project", "Project Proposal", "Individual Project Report"].map((mod) => (
+            <li key={mod} className="text-gray-500 text-xs">· {mod}</li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </div>
+)}
               </div>
             ))}
           </div>
