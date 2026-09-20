@@ -230,10 +230,11 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-2 text-gray-900">About</h2>
           <p className="text-gray-400 mb-8">The person behind the code.</p>
           <div className="space-y-6 text-gray-600 leading-relaxed">
-            <p>I'm Kartik, a CS (AI) student at Brunel University London originally from New Delhi, India. I'm a Vice Chancellor's Scholar currently in my second year, working towards a First Class degree while balancing multiple part-time roles and open source contributions.</p>
-            <p>I've always been drawn to problem solving. What excites me about CS and AI is the speed at which it can create real impact, a well-built system can solve in seconds what would take humans hours.</p>
-            <p>My goal is to work in big tech, building things that matter at scale. I'm currently looking for a placement year in central London as the next step. Outside of tech, I watch sports and read fiction.</p>
-          </div>
+          <p>I'm Kartik, a second-year Computer Science (AI) student at Brunel University London, Vice Chancellor's Scholar, and someone who genuinely loves building things.</p>
+          <p>My goal is simple: work at a company where the engineering bar is high and the problems are hard. I want to be in rooms where the best people are, learning fast, shipping real software, and eventually leading teams that build products used by millions.</p>
+          <p>Right now I'm doing everything I can to close the gap between where I am and where I want to be, including open source contributions, placement applications, daily DSA practice, and projects I'm actually proud of. I treat every year of university like it counts, because it does.</p>
+          <p>Outside of code: sports, fiction, and the kind of conversations that go on too long but you don't want to end.</p>
+        </div>
         </section>
       </Reveal>
 
