@@ -33,6 +33,12 @@ const projects = [
     github: "https://github.com/krtk119",
   },
   {
+    title: "Dexter Care",
+    description: "A one-handed, low-dexterity medication confirmation tool built for Eli Lilly's Code For All 2026 hackathon (Track 3: dexterity disability). Placed Top 4. Press and hold anywhere for 3 seconds to confirm a dose, no precise tap, no drag, no two-handed gesture. Features voice setup via Gemini API, spoken read-back, multi-routine support, and a WCAG AA/AAA verified colour palette in both themes.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Gemini API", "Accessibility"],
+    github: "https://github.com/krtk119/dexter-care",
+  },
+  {
     title: "SE Education Toolkit",
     description: "Open-source AI-powered lab exercise generator for software engineering education. Built with Next.js 15 and TypeScript. Multiple PRs merged under academic supervision.",
     tags: ["Next.js", "TypeScript", "Open Source"],
