@@ -39,12 +39,6 @@ const projects = [
     github: "https://github.com/krtk119",
   },
   {
-    title: "MiSAR Parser",
-    description: "Contributed to a microservice architecture recovery tool. Identified and fixed a Python 3.12 breaking change that caused zero output on analysis.",
-    tags: ["Python", "Open Source", "Architecture"],
-    github: "https://github.com/krtk119/MiSAR-Parser-and-Model-Transformation",
-  },
-  {
     title: "Grade Classification Calculator",
     description: "Web app where students enter their grades and instantly get their UK degree classification. Supports multiple grading schemes and reverse calculation.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS"],
@@ -80,16 +74,6 @@ const technical = [
       "Raising and resolving GitHub Issues, with PRs reviewed by academic leads",
       "Implementing UI/UX improvements including persona cards and reset functionality",
       "Collaborating with senior reviewers Cigdem Sengul and Rumyana Neykova",
-    ],
-  },
-  {
-    role: "Research Contributor",
-    company: "MiSAR Parser — Dr Nour Ali, Brunel",
-    period: "2025 – Present",
-    points: [
-      "Contributing to a microservice architecture recovery research tool",
-      "Identified and fixed a Python 3.12 breaking change (ast.Str removal)",
-      "Running benchmarks and documenting results for academic research",
     ],
   },
   {
