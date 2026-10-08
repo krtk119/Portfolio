@@ -124,6 +124,16 @@ const technical = [
       "Completed official PAL Leader training during Welcome Week",
     ],
   },
+  {
+    role: "Undergraduate Teaching Assistant",
+    company: "Brunel University London — Department of Computer Science",
+    period: "Oct 2026 – Present",
+    points: [
+      "Supporting CS1602 Logic and Computation (Dr Leila Ghanbar) and CS1603 Introductory Programming Lab (Dr Zear Ibrahim)",
+      "Assisting Year 1 students during lab sessions and answering technical questions",
+      "Bridging the gap between lecture content and practical application for a new cohort",
+   ],
+  },
 ]
 
 const work = [
