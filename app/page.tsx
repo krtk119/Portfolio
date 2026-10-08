@@ -72,14 +72,14 @@ const projects = [
 
 const technical = [
   {
-    role: "Software Engineering Contributor",
-    company: "Brunel Talent Marketplace",
-    period: "Jun 2026 – Present",
-    points: [
-      "Contributing to se-education-toolkit, a Next.js 15 AI-powered lab sheet generator",
-      "Raising and resolving GitHub Issues, with PRs reviewed by academic leads",
-      "Implementing UI/UX improvements including persona cards and reset functionality",
-      "Collaborating with senior reviewers Cigdem Sengul and Rumyana Neykova",
+  role: "Software Engineer",
+  company: "Brunel Talent Marketplace",
+  period: "Jan 2026 – Present",
+  points: [
+      "Selected as one of 3 students from a cohort of 400+ to contribute to AISE Labs, an AI-powered software engineering education platform",
+      "Building a taxonomy and comparative evaluation of AI code review tools, testing against large public repos and BTM's own codebase",
+      "Regularly using and prompt-engineering PR review agents on production code",
+      "Multiple PRs merged including UI fixes, reset functionality, and collapsible components — reviewed by academic leads",
     ],
   },
   {
