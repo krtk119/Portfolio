@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
 import ThemeToggle from "./components/ThemeToggle"
 import { Analytics } from "@vercel/analytics/react"
+import ScrollProgress from "./components/ScrollProgress"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,6 +47,7 @@ export default function RootLayout({
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {/* Navbar */}
+        <ScrollProgress />
         <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 backdrop-blur-md bg-white/80 dark:bg-[#0a0a0a]/80 border-b border-gray-200/50 dark:border-gray-800/50">
           <span className="font-semibold text-gray-900 dark:text-gray-100 text-sm">Kartik</span>
           <div className="flex items-center gap-6">
