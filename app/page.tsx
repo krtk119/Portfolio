@@ -72,10 +72,10 @@ const projects = [
 
 const technical = [
   {
-  role: "Software Engineer",
-  company: "Brunel Talent Marketplace",
-  period: "Jan 2026 – Present",
-  points: [
+    role: "Software Engineer",
+    company: "Brunel Talent Marketplace",
+    period: "Jan 2026 – Present",
+    points: [
       "Selected as one of 3 students from a cohort of 400+ to contribute to AISE Labs, an AI-powered software engineering education platform",
       "Building a taxonomy and comparative evaluation of AI code review tools, testing against large public repos and BTM's own codebase",
       "Regularly using and prompt-engineering PR review agents on production code",
@@ -122,7 +122,7 @@ const technical = [
       "Supporting CS1602 Logic and Computation (Dr Leila Ghanbar) and CS1603 Introductory Programming Lab (Dr Zear Ibrahim)",
       "Assisting Year 1 students during lab sessions and answering technical questions",
       "Bridging the gap between lecture content and practical application for a new cohort",
-   ],
+    ],
   },
 ]
 
@@ -179,7 +179,7 @@ const skills = [
 
 export default function Home() {
   return (
-    <main className="bg-[#FAFAFA] text-gray-900">
+    <main className="bg-[#FAFAFA] dark:bg-[#0a0a0a] text-gray-900 dark:text-gray-100">
 
       {/* Hero */}
       <section className="min-h-screen flex flex-col items-center justify-center px-12">
@@ -187,7 +187,7 @@ export default function Home() {
 
           {/* Left — Quote */}
           <div className="flex-1 text-left">
-            <p className="hero-animate hero-delay-1 text-2xl text-gray-700 font-light leading-relaxed italic mb-6">
+            <p className="hero-animate hero-delay-1 text-2xl text-gray-700 dark:text-gray-300 font-light leading-relaxed italic mb-6">
               "We can only see a short distance ahead, but we can see plenty there that needs to be done."
             </p>
             <div className="hero-animate hero-delay-2 flex items-center gap-4 mt-2">
@@ -196,9 +196,9 @@ export default function Home() {
                 alt="Alan Turing"
                 width={50}
                 height={50}
-                className="rounded-full object-cover grayscale border border-gray-300"
+                className="rounded-full object-cover grayscale border border-gray-300 dark:border-gray-700"
               />
-              <p className="text-gray-400 text-sm">— Alan Mathison Turing · Mathematician & Father of Computer Science · (1912–1954)</p>
+              <p className="text-gray-400 dark:text-gray-500 text-sm">— Alan Mathison Turing · Mathematician & Father of Computer Science · (1912–1954)</p>
             </div>
           </div>
 
@@ -210,14 +210,14 @@ export default function Home() {
               width={200}
               height={200}
               loading="eager"
-              className="profile-image rounded-full object-cover mb-6 border-2 border-gray-300 hero-animate hero-delay-1"
+              className="profile-image rounded-full object-cover mb-6 border-2 border-gray-300 dark:border-gray-700 hero-animate hero-delay-1"
             />
-            <h1 className="hero-animate hero-delay-2 text-4xl font-bold mb-2 text-gray-900">Kartik</h1>
-            <p className="hero-animate hero-delay-3 text-gray-600 mb-1">CS (AI) Student @ Brunel University London</p>
-            <p className="hero-animate hero-delay-3 text-gray-400 text-sm mb-6">Software Engineer · VC Scholar · Open to Placement</p>
+            <h1 className="hero-animate hero-delay-2 text-4xl font-bold mb-2 text-gray-900 dark:text-gray-100">Kartik</h1>
+            <p className="hero-animate hero-delay-3 text-gray-600 dark:text-gray-400 mb-1">CS (AI) Student @ Brunel University London</p>
+            <p className="hero-animate hero-delay-3 text-gray-400 dark:text-gray-500 text-sm mb-6">Software Engineer · VC Scholar · Open to Placement</p>
             <div className="hero-animate hero-delay-4 flex gap-4">
-              <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="premium-button px-5 py-2 bg-gray-900 text-white font-semibold rounded-lg hover:bg-gray-700 transition text-sm">GitHub</a>
-              <a href="https://www.linkedin.com/in/krtk119" target="_blank" rel="noreferrer" className="premium-button px-5 py-2 border border-gray-300 text-gray-900 font-semibold rounded-lg hover:border-gray-900 transition text-sm">LinkedIn</a>
+              <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="premium-button px-5 py-2 bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-semibold rounded-lg hover:bg-gray-700 dark:hover:bg-gray-200 transition text-sm">GitHub</a>
+              <a href="https://www.linkedin.com/in/krtk119" target="_blank" rel="noreferrer" className="premium-button px-5 py-2 border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-gray-100 font-semibold rounded-lg hover:border-gray-900 dark:hover:border-gray-300 transition text-sm">LinkedIn</a>
             </div>
           </div>
 
@@ -227,63 +227,63 @@ export default function Home() {
       {/* About */}
       <Reveal>
         <section id="about" className="px-6 py-24 max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-gray-900">About</h2>
-          <p className="text-gray-400 mb-8">The person behind the code.</p>
-          <div className="space-y-6 text-gray-600 leading-relaxed">
-          <p>I'm Kartik, a second-year Computer Science (AI) student at Brunel University London, Vice Chancellor's Scholar, and someone who genuinely loves building things.</p>
-          <p>My goal is simple: work at a company where the engineering bar is high and the problems are hard. I want to be in rooms where the best people are, learning fast, shipping real software, and eventually leading teams that build products used by millions.</p>
-          <p>Right now I'm doing everything I can to close the gap between where I am and where I want to be, including open source contributions, placement applications, daily DSA practice, and projects I'm actually proud of. I treat every year of university like it counts, because it does.</p>
-          <p>Outside of code: sports, fiction, and the kind of conversations that go on too long but you don't want to end.</p>
-        </div>
+          <h2 className="text-3xl font-bold mb-2 text-gray-900 dark:text-gray-100">About</h2>
+          <p className="text-gray-400 dark:text-gray-500 mb-8">The person behind the code.</p>
+          <div className="space-y-6 text-gray-600 dark:text-gray-400 leading-relaxed">
+            <p>I'm Kartik, a second-year Computer Science (AI) student at Brunel University London, Vice Chancellor's Scholar, and someone who genuinely loves building things.</p>
+            <p>My goal is simple: work at a company where the engineering bar is high and the problems are hard. I want to be in rooms where the best people are, learning fast, shipping real software, and eventually leading teams that build products used by millions.</p>
+            <p>Right now I'm doing everything I can to close the gap between where I am and where I want to be, including open source contributions, placement applications, daily DSA practice, and projects I'm actually proud of. I treat every year of university like it counts, because it does.</p>
+            <p>Outside of code: sports, fiction, and the kind of conversations that go on too long but you don't want to end.</p>
+          </div>
         </section>
       </Reveal>
 
       {/* Education */}
       <Reveal>
         <section id="education" className="px-6 py-24 max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-gray-900">Education</h2>
-          <p className="text-gray-400 mb-8">Where I've learned and grown.</p>
+          <h2 className="text-3xl font-bold mb-2 text-gray-900 dark:text-gray-100">Education</h2>
+          <p className="text-gray-400 dark:text-gray-500 mb-8">Where I've learned and grown.</p>
           <div className="space-y-8">
             {education.map((item) => (
-              <div key={item.institution} className="premium-card border border-gray-200 rounded-xl p-6 bg-white">
+              <div key={item.institution} className="premium-card border border-gray-200 dark:border-gray-800 rounded-xl p-6 bg-white dark:bg-gray-900">
                 <div className="flex justify-between items-start mb-3">
                   <div>
-                    <p className="text-lg font-bold text-gray-900">{item.institution}</p>
-                    <p className="font-semibold text-gray-900">{item.degree}</p>
-                    <p className="text-gray-400 text-sm">{item.predictedGrade}</p>
+                    <p className="text-lg font-bold text-gray-900 dark:text-gray-100">{item.institution}</p>
+                    <p className="font-semibold text-gray-900 dark:text-gray-100">{item.degree}</p>
+                    <p className="text-gray-400 dark:text-gray-500 text-sm">{item.predictedGrade}</p>
                   </div>
-                  <p className="text-gray-500 text-sm">{item.period}</p>
+                  <p className="text-gray-500 dark:text-gray-400 text-sm">{item.period}</p>
                 </div>
                 <ul className="space-y-1 mb-6">
-  {item.points.map((point) => (
-    <li key={point} className="text-gray-500 text-sm">→ {point}</li>
-  ))}
-</ul>
+                  {item.points.map((point) => (
+                    <li key={point} className="text-gray-500 dark:text-gray-400 text-sm">→ {point}</li>
+                  ))}
+                </ul>
 
-{/* Modules table — only for Brunel */}
-{item.institution === "Brunel University London" && (
-  <div className="mt-4 border-t border-gray-100 pt-4">
-    <p className="text-sm font-semibold text-gray-700 mb-3">Modules</p>
-    <div className="grid grid-cols-2 gap-4">
-      <div>
-        <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Year 1</p>
-        <ul className="space-y-1">
-          {["Introduction to Programming", "Logic and Computation", "Information Systems and Organisation", "Programming Applications", "Data and Information", "Group Project"].map((mod) => (
-            <li key={mod} className="text-gray-500 text-xs">· {mod}</li>
-          ))}
-        </ul>
-      </div>
-      <div>
-        <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Year 2</p>
-        <ul className="space-y-1">
-          {["Graduate Development", "Software Development and Management", "Usability Engineering", "Fundamentals of Algorithms", "Algorithms and their Applications", "Networks and Operating Systems", "Level 5 Group Project", "Project Proposal", "Individual Project Report"].map((mod) => (
-            <li key={mod} className="text-gray-500 text-xs">· {mod}</li>
-          ))}
-        </ul>
-      </div>
-    </div>
-  </div>
-)}
+                {/* Modules table — only for Brunel */}
+                {item.institution === "Brunel University London" && (
+                  <div className="mt-4 border-t border-gray-100 dark:border-gray-800 pt-4">
+                    <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">Modules</p>
+                    <div className="grid grid-cols-2 gap-4">
+                      <div>
+                        <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2">Year 1</p>
+                        <ul className="space-y-1">
+                          {["Introduction to Programming", "Logic and Computation", "Information Systems and Organisation", "Programming Applications", "Data and Information", "Group Project"].map((mod) => (
+                            <li key={mod} className="text-gray-500 dark:text-gray-400 text-xs">· {mod}</li>
+                          ))}
+                        </ul>
+                      </div>
+                      <div>
+                        <p className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2">Year 2</p>
+                        <ul className="space-y-1">
+                          {["Graduate Development", "Software Development and Management", "Usability Engineering", "Fundamentals of Algorithms", "Algorithms and their Applications", "Networks and Operating Systems", "Level 5 Group Project", "Project Proposal", "Individual Project Report"].map((mod) => (
+                            <li key={mod} className="text-gray-500 dark:text-gray-400 text-xs">· {mod}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -293,43 +293,43 @@ export default function Home() {
       {/* Experience */}
       <Reveal>
         <section id="experience" className="px-6 py-24 max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-gray-900">Experience</h2>
-          <p className="text-gray-400 mb-12">Where I have worked and contributed.</p>
+          <h2 className="text-3xl font-bold mb-2 text-gray-900 dark:text-gray-100">Experience</h2>
+          <p className="text-gray-400 dark:text-gray-500 mb-12">Where I have worked and contributed.</p>
 
-          <h3 className="text-xl font-semibold mb-6 text-gray-700">Technical</h3>
+          <h3 className="text-xl font-semibold mb-6 text-gray-700 dark:text-gray-300">Technical</h3>
           <div className="space-y-8 mb-16">
             {technical.map((item) => (
-              <div key={item.role} className="premium-card border border-gray-200 rounded-xl p-6 bg-white">
+              <div key={item.role} className="premium-card border border-gray-200 dark:border-gray-800 rounded-xl p-6 bg-white dark:bg-gray-900">
                 <div className="flex justify-between items-start mb-3">
                   <div>
-                    <p className="font-semibold text-gray-900">{item.role}</p>
-                    <p className="text-gray-500 text-sm">{item.company}</p>
+                    <p className="font-semibold text-gray-900 dark:text-gray-100">{item.role}</p>
+                    <p className="text-gray-500 dark:text-gray-400 text-sm">{item.company}</p>
                   </div>
-                  <p className="text-gray-400 text-sm">{item.period}</p>
+                  <p className="text-gray-400 dark:text-gray-500 text-sm">{item.period}</p>
                 </div>
                 <ul className="space-y-1">
                   {item.points.map((point) => (
-                    <li key={point} className="text-gray-500 text-sm">→ {point}</li>
+                    <li key={point} className="text-gray-500 dark:text-gray-400 text-sm">→ {point}</li>
                   ))}
                 </ul>
               </div>
             ))}
           </div>
 
-          <h3 className="text-xl font-semibold mb-6 text-gray-700">Work Experience</h3>
+          <h3 className="text-xl font-semibold mb-6 text-gray-700 dark:text-gray-300">Work Experience</h3>
           <div className="space-y-8">
             {work.map((item) => (
-              <div key={item.role} className="premium-card border border-gray-200 rounded-xl p-6 bg-white">
+              <div key={item.role} className="premium-card border border-gray-200 dark:border-gray-800 rounded-xl p-6 bg-white dark:bg-gray-900">
                 <div className="flex justify-between items-start mb-3">
                   <div>
-                    <p className="font-semibold text-gray-900">{item.role}</p>
-                    <p className="text-gray-500 text-sm">{item.company}</p>
+                    <p className="font-semibold text-gray-900 dark:text-gray-100">{item.role}</p>
+                    <p className="text-gray-500 dark:text-gray-400 text-sm">{item.company}</p>
                   </div>
-                  <p className="text-gray-400 text-sm">{item.period}</p>
+                  <p className="text-gray-400 dark:text-gray-500 text-sm">{item.period}</p>
                 </div>
                 <ul className="space-y-1">
                   {item.points.map((point) => (
-                    <li key={point} className="text-gray-500 text-sm">→ {point}</li>
+                    <li key={point} className="text-gray-500 dark:text-gray-400 text-sm">→ {point}</li>
                   ))}
                 </ul>
               </div>
@@ -341,21 +341,21 @@ export default function Home() {
       {/* Projects */}
       <section id="projects" className="px-6 py-24 max-w-3xl mx-auto">
         <Reveal>
-          <h2 className="text-3xl font-bold mb-2 text-gray-900">Projects</h2>
-          <p className="text-gray-400 mb-12">Things I have built and contributed to.</p>
+          <h2 className="text-3xl font-bold mb-2 text-gray-900 dark:text-gray-100">Projects</h2>
+          <p className="text-gray-400 dark:text-gray-500 mb-12">Things I have built and contributed to.</p>
         </Reveal>
         <div className="grid gap-6">
           {projects.map((project, index) => (
             <Reveal key={project.title} delay={index * 80}>
-              <div className="premium-card border border-gray-200 rounded-xl p-6 bg-white">
-                <h3 className="text-xl font-semibold mb-2 text-gray-900">{project.title}</h3>
-                <p className="text-gray-500 mb-4">{project.description}</p>
+              <div className="premium-card border border-gray-200 dark:border-gray-800 rounded-xl p-6 bg-white dark:bg-gray-900">
+                <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">{project.title}</h3>
+                <p className="text-gray-500 dark:text-gray-400 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <span key={tag} className="skill-badge text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full border border-gray-200">{tag}</span>
+                    <span key={tag} className="skill-badge text-xs bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 px-3 py-1 rounded-full border border-gray-200 dark:border-gray-700">{tag}</span>
                   ))}
                 </div>
-                <a href={project.github} target="_blank" rel="noreferrer" className="text-sm text-gray-400 hover:text-gray-900 transition">
+                <a href={project.github} target="_blank" rel="noreferrer" className="text-sm text-gray-400 dark:text-gray-500 hover:text-gray-900 dark:hover:text-gray-100 transition">
                   View on GitHub →
                 </a>
               </div>
@@ -367,15 +367,15 @@ export default function Home() {
       {/* Skills */}
       <Reveal>
         <section id="skills" className="px-6 py-24 max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-gray-900">Skills</h2>
-          <p className="text-gray-400 mb-12">What I work with.</p>
+          <h2 className="text-3xl font-bold mb-2 text-gray-900 dark:text-gray-100">Skills</h2>
+          <p className="text-gray-400 dark:text-gray-500 mb-12">What I work with.</p>
           <div className="grid gap-8">
             {skills.map((group) => (
               <div key={group.category}>
-                <h3 className="text-lg font-semibold text-gray-700 mb-4">{group.category}</h3>
+                <h3 className="text-lg font-semibold text-gray-700 dark:text-gray-300 mb-4">{group.category}</h3>
                 <div className="flex flex-wrap gap-3">
                   {group.items.map((skill) => (
-                    <span key={skill} className="skill-badge px-4 py-2 bg-white border border-gray-200 rounded-lg text-gray-600 text-sm">
+                    <span key={skill} className="skill-badge px-4 py-2 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg text-gray-600 dark:text-gray-300 text-sm">
                       {skill}
                     </span>
                   ))}
@@ -389,25 +389,25 @@ export default function Home() {
       {/* Contact */}
       <Reveal>
         <section id="contact" className="px-6 py-24 max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-2 text-gray-900">Contact</h2>
-          <p className="text-gray-400 mb-12">Get in touch.</p>
+          <h2 className="text-3xl font-bold mb-2 text-gray-900 dark:text-gray-100">Contact</h2>
+          <p className="text-gray-400 dark:text-gray-500 mb-12">Get in touch.</p>
           <div className="grid gap-6">
-            <a href="mailto:119kartikwork@gmail.com" className="premium-card flex items-center gap-4 border border-gray-200 rounded-xl p-6 bg-white">
+            <a href="mailto:119kartikwork@gmail.com" className="premium-card flex items-center gap-4 border border-gray-200 dark:border-gray-800 rounded-xl p-6 bg-white dark:bg-gray-900">
               <div>
-                <p className="font-semibold text-gray-900 mb-1">Email</p>
-                <p className="text-gray-500 text-sm">119kartikwork@gmail.com</p>
+                <p className="font-semibold text-gray-900 dark:text-gray-100 mb-1">Email</p>
+                <p className="text-gray-500 dark:text-gray-400 text-sm">119kartikwork@gmail.com</p>
               </div>
             </a>
-            <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="premium-card flex items-center gap-4 border border-gray-200 rounded-xl p-6 bg-white">
+            <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="premium-card flex items-center gap-4 border border-gray-200 dark:border-gray-800 rounded-xl p-6 bg-white dark:bg-gray-900">
               <div>
-                <p className="font-semibold text-gray-900 mb-1">GitHub</p>
-                <p className="text-gray-500 text-sm">github.com/krtk119</p>
+                <p className="font-semibold text-gray-900 dark:text-gray-100 mb-1">GitHub</p>
+                <p className="text-gray-500 dark:text-gray-400 text-sm">github.com/krtk119</p>
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/krtk119" target="_blank" rel="noreferrer" className="premium-card flex items-center gap-4 border border-gray-200 rounded-xl p-6 bg-white">
+            <a href="https://www.linkedin.com/in/krtk119" target="_blank" rel="noreferrer" className="premium-card flex items-center gap-4 border border-gray-200 dark:border-gray-800 rounded-xl p-6 bg-white dark:bg-gray-900">
               <div>
-                <p className="font-semibold text-gray-900 mb-1">LinkedIn</p>
-                <p className="text-gray-500 text-sm">linkedin.com/in/krtk119</p>
+                <p className="font-semibold text-gray-900 dark:text-gray-100 mb-1">LinkedIn</p>
+                <p className="text-gray-500 dark:text-gray-400 text-sm">linkedin.com/in/krtk119</p>
               </div>
             </a>
           </div>
@@ -415,12 +415,12 @@ export default function Home() {
       </Reveal>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 px-6 py-8 text-center">
-        <p className="text-gray-400 text-sm">© 2026 Kartik · Built with Next.js & Tailwind CSS</p>
+      <footer className="border-t border-gray-200 dark:border-gray-800 px-6 py-8 text-center">
+        <p className="text-gray-400 dark:text-gray-500 text-sm">© 2026 Kartik · Built with Next.js & Tailwind CSS</p>
         <div className="flex justify-center gap-6 mt-4">
-          <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-gray-900 text-sm transition">GitHub</a>
-          <a href="https://www.linkedin.com/in/krtk119" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-gray-900 text-sm transition">LinkedIn</a>
-          <a href="mailto:119kartikwork@gmail.com" className="text-gray-400 hover:text-gray-900 text-sm transition">Email</a>
+          <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="text-gray-400 dark:text-gray-500 hover:text-gray-900 dark:hover:text-gray-100 text-sm transition">GitHub</a>
+          <a href="https://www.linkedin.com/in/krtk119" target="_blank" rel="noreferrer" className="text-gray-400 dark:text-gray-500 hover:text-gray-900 dark:hover:text-gray-100 text-sm transition">LinkedIn</a>
+          <a href="mailto:119kartikwork@gmail.com" className="text-gray-400 dark:text-gray-500 hover:text-gray-900 dark:hover:text-gray-100 text-sm transition">Email</a>
         </div>
       </footer>
 
