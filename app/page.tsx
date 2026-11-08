@@ -214,7 +214,14 @@ export default function Home() {
             />
             <h1 className="hero-animate hero-delay-2 text-4xl font-bold mb-2 text-gray-900 dark:text-gray-100">Kartik</h1>
             <p className="hero-animate hero-delay-3 text-gray-600 dark:text-gray-400 mb-1">CS (AI) Student @ Brunel University London</p>
-            <p className="hero-animate hero-delay-3 text-gray-400 dark:text-gray-500 text-sm mb-6">Software Engineer · VC Scholar · Open to Placement</p>
+            <p className="hero-animate hero-delay-3 text-gray-400 dark:text-gray-500 text-sm mb-4">Software Engineer · VC Scholar</p>
+            <div className="hero-animate hero-delay-3 flex items-center justify-center gap-2 mb-6">
+              <span className="relative flex h-2 w-2">
+               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+               <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+              </span>
+              <span className="text-green-600 dark:text-green-400 text-sm font-medium">Open to Placement 2027</span>
+            </div>
             <div className="hero-animate hero-delay-4 flex gap-4">
               <a href="https://github.com/krtk119" target="_blank" rel="noreferrer" className="premium-button px-5 py-2 bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-semibold rounded-lg hover:bg-gray-700 dark:hover:bg-gray-200 transition text-sm">GitHub</a>
               <a href="https://www.linkedin.com/in/krtk119" target="_blank" rel="noreferrer" className="premium-button px-5 py-2 border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-gray-100 font-semibold rounded-lg hover:border-gray-900 dark:hover:border-gray-300 transition text-sm">LinkedIn</a>
