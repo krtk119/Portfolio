@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Reveal from "@/app/components/Reveal"
+import TypedRoles from "@/app/components/TypedRoles"
 
 const education = [
   {
@@ -214,7 +215,7 @@ export default function Home() {
             />
             <h1 className="hero-animate hero-delay-2 text-4xl font-bold mb-2 text-gray-900 dark:text-gray-100">Kartik</h1>
             <p className="hero-animate hero-delay-3 text-gray-600 dark:text-gray-400 mb-1">CS (AI) Student @ Brunel University London</p>
-            <p className="hero-animate hero-delay-3 text-gray-400 dark:text-gray-500 text-sm mb-4">Software Engineer · VC Scholar</p>
+            <p className="hero-animate hero-delay-3 text-sm mb-4"><TypedRoles /></p>
             <div className="hero-animate hero-delay-3 flex items-center justify-center gap-2 mb-6">
               <span className="relative flex h-2 w-2">
                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
