@@ -208,10 +208,10 @@ export default function Home() {
             <Image
               src="/profile.jpg"
               alt="Kartik"
-              width={200}
-              height={200}
+              width={300}
+              height={350}
               loading="eager"
-              className="profile-image rounded-full object-cover mb-6 border-2 border-gray-300 dark:border-gray-700 hero-animate hero-delay-1"
+              className="profile-image rounded-2xl object-cover mb-6 border-2 border-gray-300 dark:border-gray-700 hero-animate hero-delay-1"
             />
             <TypedHero />
             <p className="hero-animate hero-delay-3 text-gray-600 dark:text-gray-400 mb-1">CS (AI) Student @ Brunel University London</p>
